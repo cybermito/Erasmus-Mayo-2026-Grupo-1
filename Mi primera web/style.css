@@ -1,0 +1,35 @@
+/*
+Aquí van los comentarios
+*/
+
+/*
+Sintaxis CSS:
+selector{
+    propiedad1: valor1;
+    propiedad2: valor2;
+}
+*/
+
+h2 {
+  background: orangered;
+  color: black;
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+  background: lightgoldenrodyellow;
+  color: grey;
+  border: 2px solid greenyellow;
+}
+
+/* Vamos a decorar los enlaces "a"*/
+a {
+  text-decoration: none;
+  font-family: monospace;
+  color: rgb(246, 32, 75); /* #FF00AA*/
+  padding: 3px;
+  background-color: lightgray;
+  margin: 5px;
+  border-radius: 5px;
+}

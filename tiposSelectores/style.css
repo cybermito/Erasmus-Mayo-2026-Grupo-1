@@ -1,0 +1,23 @@
+/* Selectores en CSS */
+
+/*Selector Universal*/
+* {
+  color: green;
+}
+
+/*Selectores de tipo o elemento*/
+p {
+  margin-bottom: 30px;
+  border: 1px solid rgb(255, 2, 116);
+  padding: 5px;
+}
+
+/* Selector de Clase */
+/*
+Sintaxis:
+.nombreClase{}
+*/
+
+.rojo {
+  color: red; /* rgb(255, 0, 0) */
+}
