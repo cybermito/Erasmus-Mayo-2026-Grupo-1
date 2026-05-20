@@ -21,3 +21,42 @@ Sintaxis:
 .rojo {
   color: red; /* rgb(255, 0, 0) */
 }
+
+.grande {
+  font-size: 30px;
+}
+
+.container {
+  border: 2px solid lightsalmon;
+}
+
+/* Selector de ID */
+/* Sintaxis:
+#nombreId{}
+*/
+
+#unico {
+  background-color: yellow;
+}
+
+/* Selectores descendientes */
+/* Aplica estilos a todos los hijos directos e indirectos del elemento indicado*/
+
+.container p {
+  color: rgb(218, 32, 156);
+  font-weight: bold;
+}
+
+/* Hijo directo */
+/* Aplica estilos solamente a los hijos directos del elemento padre seleainer pccionado */
+
+.container > p {
+  font-size: 40px;
+}
+
+/* Elemento adyadcente */
+/* Aplica estilo al elemento adyadcente al indicado inicialmente por debajo de este */
+
+p + .container {
+  background-color: lightgoldenrodyellow;
+}
