@@ -1,0 +1,53 @@
+/* Flexbox */
+/*
+Juego para practicar Flexbox:
+https://flexboxfroggy.com/
+
+Guia Flexbox: (buscar en google "CSS TRICKS FLEXBOX)
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 100px;
+  display: flex;
+}
+
+.item {
+  width: 100px;
+  background-color: #3498cd;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Flex direcction column */
+.column {
+  flex-direction: column;
+}
+
+/* Centrado en el eje horizontal */
+.center {
+  justify-content: center;
+}
+
+/* Centrado en el eje vertical */
+/* Alineación de elementos */
+.small {
+  height: 100px;
+}
+
+.align {
+  align-items: center;
+}
